@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/dusk/64/000000/bookmark-ribbon.png">
+	<link rel="stylesheet" type="text/css" href="stylen.css">
+	<meta charset="utf-8">
+	<title>Create Account</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	label {
+		display: inline-block;
+		width: 150px;
+		color: #000000;
+		font-weight: 700;
+	}
+	.centeredText{
+		width: 59%;
+		margin: 20px auto;
+		background-color: #76d2f7;
+		padding: 20px;
+	}
+	.fields {
+		margin-bottom: 6px;
+	}
+	.main {
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		width: 80vw;
+		margin-left: 10px;
+	}
+		</style>
+</head>
+<body>
+<div class="centeredText">
+
+<form>
+	<p class="fields"><label for="search">Search</label>
+	<input type="search" placeholder="what are you looking for"></p>
+	<pclass="fields"><label for="date">Birhtday</label>
+	<input type="date" name="date" placeholder="DD.MM.YYYY" required></p>
+	<p class="fields"><label for="image">Image</label>
+	<input type="file" name="file" accept="jpg,gif,png" required></p>
+	<div class="fields"><label for="Use"><mark>Use Also</mark></label>
+		<select>
+			<option>Google</option>
+			<option>Facebook</option>
+			<option>Twitter</option>
+		</select>
+		</div>
+
+	<p>
+	<input type="submit" name="continue" value="Continue">
+	<input type="reset" name="cancel" value="Cancel"></p>
+</form>
+
+
+</body>
+</html>
